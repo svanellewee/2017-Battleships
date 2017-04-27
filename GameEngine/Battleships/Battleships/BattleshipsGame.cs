@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using BotRunner.Harness.ConsoleHarness;
+using BotRunner.Harness.Bot;
 using BotRunner.Util;
 using Domain.File;
 using Domain.Games;
@@ -26,6 +27,7 @@ namespace Battleships
 
         public void StartNewGame(Options options)
         {
+	    // var test_compiler = new BotRunner.Harness.Bot.BotCompiler(null, ParentHarness.BotDir, Logger);
             FileHelper.WriteImmediate = !options.TournamentMode;
             var players = new List<Player>();
             var mapSize = options.MapSize.HasValue && options.MapSize.Value >= 1 && options.MapSize.Value <= 3

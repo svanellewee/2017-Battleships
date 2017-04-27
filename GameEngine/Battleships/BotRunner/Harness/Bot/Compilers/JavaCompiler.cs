@@ -9,7 +9,7 @@ using Domain.Bot;
 using Domain.Meta;
 using GameEngine.Loggers;
 
-namespace TestHarness.TestHarnesses.Bot.Compilers
+namespace BotRunner.Harness.Bot.Compilers
 {
     public class JavaCompiler : ICompiler
     {

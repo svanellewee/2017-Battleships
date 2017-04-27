@@ -44,6 +44,10 @@ namespace Battleships
             HelpText = "Will prevent writing sensitive information until the end of the match")]
         public bool TournamentMode { get; set; }
 
+        [Option("compile", DefaultValue = false,
+            HelpText = "Builds bot")]
+        public bool CompileMode { get; set; }
+	
         [HelpOption]
         public string GetUsage()
         {

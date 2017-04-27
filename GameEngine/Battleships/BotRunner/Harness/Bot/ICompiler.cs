@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TestHarness.TestHarnesses.Bot
+namespace BotRunner.Harness.Bot
 {
     public interface ICompiler
     {

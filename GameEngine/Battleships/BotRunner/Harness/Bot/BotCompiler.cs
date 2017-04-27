@@ -5,9 +5,10 @@ using System.Text;
 using Domain.Bot;
 using Domain.Meta;
 using GameEngine.Loggers;
-using TestHarness.TestHarnesses.Bot.Compilers;
-
-namespace TestHarness.TestHarnesses.Bot
+//using TestHarness.TestHarnesses.Bot.Compilers;
+using BotRunner.Harness.Bot.Compilers;
+    
+namespace BotRunner.Harness.Bot
 {
     public class BotCompiler
     {
